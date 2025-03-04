@@ -1,0 +1,976 @@
+/* ====================== RESPONSIVE SETTINGS ====================== */
+
+
+/* =========== All page Responsive =============== */
+
+@media (min-width: 1300px) {
+    /* ========= index.html ========= */
+    .treatment_img div:nth-child(3) {
+        z-index: 2;
+    }
+}
+
+@media (max-width: 1199px) {
+    /* ========= index.html =========  */
+    .hero img {
+        width: 214px;
+    }
+    .treatment_img div:nth-child(2) figure:last-child img {
+        margin: -129px 0px 0 -21px;
+    }
+    .works .container div {
+        flex-direction: column;
+        text-align: center;
+    }
+    .works img[alt="overly"] {
+        height: 580px;
+    }
+    .salon_serv {
+        padding: 0 0 50px 0 !important;
+        margin-top: -180px;
+    }
+    /* ========= contact.html ========= */
+    img[alt="contect_leaf"] {
+        margin: 40px -9px 0 0;
+    }
+    img[alt="contact_rectengal"] {
+        margin: 0px 58px -56px 0;
+    }
+}
+
+@media (max-width: 1050px) {
+    /* ========= index.html ========= */
+    .faq {
+        background-size: 150%;
+    }
+    .frequently_accordion_main {
+        width: 70%;
+    }
+}
+
+@media (max-width: 991px) {
+    /* global setting */
+    .container {
+        max-width: 925px;
+    }
+    /* ========= index.html ========= */
+    .nav {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hero {
+        padding-top: 40px;
+    }
+    .hero img {
+        width: 163px;
+    }
+    .hero h1 {
+        width: 100%;
+    }
+    .hero p {
+        width: 100%;
+    }
+    .beauty_spa p {
+        padding: 0 50px;
+    }
+    .card3 .card {
+        padding: 20px 10px;
+    }
+    .treatment_img div:first-child {
+        display: none;
+    }
+    .treatment_img div:nth-child(4) {
+        display: none;
+    }
+    .feature_card img {
+        width: 60px;
+    }
+    .feature .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .saloon_img div:first-child img[alt="saloon_leaf"] {
+        display: none;
+    }
+    img[alt="saloon_comb2"] {
+        display: none;
+    }
+    .pricing1 div {
+        padding: 30px 30px 38px 30px;
+    }
+    .expert img {
+        height: 240px;
+    }
+    .overlay_text p {
+        padding: 0 4px;
+    }
+    .video_img a {
+        left: 36%;
+        top: 24%;
+    }
+    .blog_para {
+        margin-top: 30px;
+    }
+    .blog_img {
+        gap: 10px;
+        margin: 20px 0 50px 0;
+    }
+    /* ========= about.html ========= */
+    img[alt="blog_leaf"] {
+        display: none;
+    }
+    .about_mission_data {
+        padding: 0 15px;
+        margin: 58px 0 0 0;
+    }
+    img[alt="about_mission"] {
+        height: 326px;
+    }
+    /* ========= contact.html ========= */
+    .contact_address ul {
+        margin-top: 40px;
+    }
+    .contact_address p {
+        padding: 0 60px;
+        margin-top: 20px;
+    }
+    .form_h1 {
+        margin: 30px 0 30px 0;
+    }
+    .contact_form {
+        margin-bottom: 100px;
+    }
+    img[alt="contect_leaf"] {
+        margin: 40px -78px 0 0;
+    }
+    img[alt="contact_rectengal"] {
+        margin: 0px -46px -56px 0;
+    }
+    .contact_form form {
+        width: 90%;
+    }
+    /* ========= 404.html ========= */
+    .p404 p {
+        padding: 0 80px;
+    }
+}
+
+@media (max-width: 802px) {
+    /* ========= contact.html ========= */
+    img[alt="contact_rectengal"] {
+        margin: 0px -20px -56px 0;
+    }
+}
+
+@media (max-width: 860px) {
+    img[alt="contect_leaf"] {
+        margin: 40px -7px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* global setting */
+    h1 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46px;
+    }
+    h2 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    h4 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    h5 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    h6 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    button {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 14px 30px 14px 30px;
+    }
+    a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 14px 30px 14px 30px;
+    }
+    .tr-h1 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+    .appointment_img .tr-h2 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+    .container {
+        max-width: 757px;
+    }
+    /* ========= index.html ========= */
+    header img {
+        width: 90%;
+    }
+    .beauty_spa {
+        padding: 60px 0;
+    }
+    .card3 {
+        padding: 60px 0;
+        gap: 10px;
+    }
+    .spa_treatment {
+        margin-top: 40px;
+    }
+    img[alt="spa_leaf"] {
+        width: 80px;
+    }
+    .feature img[alt="feature5"] {
+        width: 230px;
+    }
+    .feature .container {
+        padding: 60px 20px;
+    }
+    .feature_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        width: 202px;
+        min-height: 215px;
+        padding: 0 36px;
+    }
+    img[alt="saloon_leaf"] {
+        width: 80px;
+    }
+    .saloon_para {
+        margin-top: 50px;
+    }
+    .testimonial {
+        padding: 30px 0 50px 0;
+    }
+    .testimonial_para1 {
+        margin-top: 16px;
+    }
+    .works .container {
+        gap: 50px;
+    }
+    .pricing_para {
+        margin-top: 46px;
+    }
+    .pricing_card {
+        margin: 20px 0;
+    }
+    .appointment img[alt="appointment_leaf"] {
+        width: 80px;
+        margin-right: -69px;
+    }
+    .appointment {
+        padding: 40px 0;
+    }
+    .appointment {
+        padding: 22px 0;
+    }
+    .overlay_text i {
+        padding: 8px 10px 8px 10px;
+    }
+    .overlay_text a:nth-child(2) i {
+        padding: 8px 10px 8px 10px;
+    }
+    .overlay_text a:first-child i {
+        padding: 8px 12px 8px 12px;
+    }
+    .our_expert_img {
+        gap: 10px;
+        margin: 10px 0 -10px 0;
+    }
+    .about_expert {
+        margin: 10px 0 50px 0;
+    }
+    .faq {
+        margin: 95px 0 10px 0;
+        background-size: 160% !important;
+    }
+    .video {
+        padding: 5px 0 50px 0;
+    }
+    .video img[alt="video_leaf"] {
+        width: 80px;
+    }
+    img[alt="blog_leaf"] {
+        width: 80px;
+    }
+    /* ========= about.html ========= */
+    .about {
+        height: 214px;
+    }
+    .about img {
+        width: 300px;
+        top: -69px;
+    }
+    .about #about {
+        margin-top: 12px;
+    }
+    .about_testimonial {
+        padding: 30px 0 50px 0;
+    }
+    /* ========= blog.html ========= */
+    .blog_page_img {
+        margin-top: -30px;
+    }
+    /* ========= team.html ========= */
+    .our_expert_img_team {
+        margin-top: 32px !important;
+    }
+    /* ========= 404.html ========= */
+    .p404 img[alt="404_1"] {
+        width: 300px;
+        top: 1%;
+        left: -41px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* ========= index.html =========  */
+    .hero .row div:first-child {
+        text-align: center;
+    }
+    .hero .row div:last-child {
+        margin-top: 70px;
+    }
+    .hero img {
+        width: 100%;
+    }
+    .beauty_spa {
+        padding: 50px 0 30px 0;
+    }
+    .card3 .card {
+        width: 93%;
+        padding: 30px;
+    }
+    .spa_treatment_img {
+        margin: 3px 0 10px 0;
+    }
+    .treatment_img div:nth-child(3) {
+        margin-top: -48px;
+    }
+    .treatment_img {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    img[alt="spa_rec"] {
+        display: none;
+    }
+    img[alt="spa_leaf"] {
+        display: none;
+    }
+    .treatment_img_card {
+        width: 100%;
+        margin: -60px 0px 0px 0px;
+        padding: 20px 0px 20px 15px;
+    }
+    .feature .container {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .feature .container div:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .feature_card_main {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .feature_card {
+        width: 100%;
+        padding: 0 83px;
+    }
+    .saloon_img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: -5px 0 40px 0;
+    }
+    .saloon_img_card {
+        width: 100%;
+        margin: -60px 0px 0px 0px;
+    }
+    img[alt="saloon_comb1"] {
+        display: none;
+    }
+    img[alt="saloon_leaf"] {
+        display: none;
+    }
+    .saloon_img div:nth-child(3) {
+        margin-top: -50px;
+    }
+    .saloon_para h2 {
+        width: 100%;
+    }
+    figure.snip1157 .testimonial_para {
+        margin-top: 51px;
+    }
+    .testimonial2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .testimonial {
+        margin-top: -60px;
+    }
+    .testimonial_para1 h2 {
+        width: 100%;
+    }
+    .works img[alt="overly"] {
+        height: 587px;
+    }
+    .works .container {
+        flex-wrap: wrap;
+        gap: 26px;
+    }
+    .overly_para h2 {
+        width: 78%;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin: 0 10px;
+    }
+    .pricing_para h2 {
+        width: 100%;
+    }
+    .pricing1 {
+        flex-direction: column;
+    }
+    .pricing1 div {
+        text-align: center;
+    }
+    .pricing1 div h4:last-child {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .pricing1 div {
+        padding: 25px 20px 22px 20px;
+    }
+    .salon_serv {
+        margin-top: -40px;
+    }
+    .appointment img[alt="appointment_leaf"] {
+        display: none;
+    }
+    .appointment_img {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .appointment form {
+        margin: auto;
+    }
+    .team_testimonial {
+        margin-top: 53px !important;
+    }
+    .our_expert_para p {
+        padding: 0 30px;
+    }
+    .our_expert_para h2 {
+        width: 100%;
+    }
+    .our_expert_img {
+        flex-direction: column;
+        margin: 10px 0 -62px 0;
+    }
+    .expert img {
+        height: 660px;
+    }
+    .overlay_text p {
+        padding: 0 40px;
+    }
+    .faq_page {
+        margin-top: 22px;
+    }
+    .frequently_accordion_main {
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .faq {
+        background-image: none;
+        padding: 0 20px;
+    }
+    .video_para h2 {
+        width: 100%;
+    }
+    .video_img {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .video img[alt="video_leaf"] {
+        display: none;
+    }
+    .video_para {
+        margin-top: -15px;
+    }
+    .blog_para h2 {
+        width: 100%;
+    }
+    .blog_img {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .blog_img .card {
+        padding: 0;
+        width: 100%;
+    }
+    footer hr {
+        display: none;
+    }
+    footer .gap-4 {
+        display: none !important;
+    }
+    footer form {
+        width: 100%;
+    }
+    footer .container ul:nth-child(2) {
+        display: flex;
+        gap: 20px;
+    }
+    .copyright {
+        justify-content: center;
+    }
+    /* ========= about.html ========= */
+    .about {
+        height: 230px;
+    }
+    img[alt="about_mission"] {
+        height: 286px;
+    }
+    img[alt="about_mission_leaf"] {
+        display: none;
+    }
+    .mission {
+        flex-direction: column;
+    }
+    .mission .mi {
+        margin-top: 0px;
+    }
+    .about_mission_data {
+        padding: 0 30px;
+    }
+    .about_testimonial {
+        margin-top: -38px;
+        padding-top: 40px;
+    }
+    /* ========= contact.html ========= */
+    .contact_address ul {
+        gap: 20px;
+    }
+    .contact_address p {
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+    .contact_address ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .contact_form {
+        margin-bottom: 60px;
+    }
+    img[alt="contact_rectengal"] {
+        display: none;
+    }
+    img[alt="contect_leaf"] {
+        display: none;
+    }
+    .contact_form form {
+        width: 100%;
+    }
+    .contact_form div {
+        flex-direction: column;
+    }
+    .contact_form input {
+        width: 93%;
+    }
+    .contact_form textarea {
+        width: 93%;
+    }
+    /* ========= testimonial.html ========= */
+    .testimonial_page {
+        margin-top: -35px !important;
+    }
+    /* ========= team.html ========= */
+    .our_expert_img_team {
+        margin-top: 74px !important;
+    }
+    /* ========= 404.html ========= */
+    .p404 img[alt="404_2"] {
+        top: 0%;
+    }
+    .p404 p {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 552px) {
+    /* ========= index.html ========= */
+    .blog_img {
+        margin: 0px 0 30px 0;
+    }
+    .beauty_spa p {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 547px) {
+    .works .container {
+        gap: 13px;
+    }
+}
+
+@media (max-width: 516px) {
+    .works img[alt="overly"] {
+        height: 780px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* global setting */
+    h1 {
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34px;
+    }
+    h3 {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    h5 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    h6 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    button {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 12px 19px 12px 19px;
+    }
+    a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 12px 19px 12px 19px;
+    }
+    .tr-h1 {
+        font-size: 48px;
+        line-height: 42px;
+    }
+    .appointment_img .tr-h2 {
+        font-size: 48px;
+        line-height: 42px;
+    }
+    /* ========= index.html ========= */
+    header img {
+        width: 80%;
+    }
+    aside li a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card3 .card {
+        padding: 20px 20px;
+    }
+    .works img[alt="overly"] {
+        height: 560px !important;
+    }
+    .fa-arrow-left,
+    .fa-arrow-right {
+        padding: 3px 18px;
+    }
+    .overlay_text i {
+        padding: 7px 8px 7px 8px;
+        font-size: 20px;
+    }
+    .overlay_text a:first-child i {
+        padding: 7px 11px 7px 11px;
+    }
+    .overlay_text a:nth-child(2) i {
+        padding: 7px 8px 7px 8px;
+    }
+    .overlay_text p {
+        padding: 0 10px;
+    }
+    .expert img {
+        height: 300px;
+    }
+    .our_expert_img {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .expert {
+        width: 48%;
+    }
+    .treatment h2 {
+        width: 100%;
+    }
+    /* ========= about.html ========= */
+    .about img {
+        width: 250px;
+    }
+    .about {
+        height: 180px;
+    }
+    /* ========= Hero section ========= */
+    .saloon_para p {
+        margin-bottom: -8px;
+    }
+    /* ========= testimonial.html ========= */
+    .testimonial_page {
+        padding: 50px 0 50px 0;
+    }
+    /* ========= team.html ========= */
+    .testimonial_page {
+        padding: 50px 0 50px 0;
+    }
+    /* ========= faq section ========= */
+    #faq_pricing {
+        margin: 40px 0 10px 0;
+    }
+    /* ========= footer section ========= */
+    #success-message {
+        width: 71%;
+        padding: 75px 17px;
+        top: 24%;
+    }
+    #footer-message {
+        width: 71%;
+        padding: 75px 17px;
+        top: 24%;
+    }
+}
+
+@media (max-width: 478px) {
+    /* ========= index.html ========= */
+    .works img[alt="overly"] {
+        height: 741px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    /* ========= index.html ========= */
+    .beauty_spa img[alt="beauty_spa2"] {
+        margin: -50px 0 -8px 68px;
+    }
+    .beauty_spa p {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 443px) {
+    /* ========= index.html ========= */
+    .works .container {
+        gap: 36px !important;
+    }
+    .slide {
+        margin: -70px 10px 0 10px;
+    }
+    .copyright {
+        padding: 15px 70px;
+    }
+    footer form button {
+        width: 100%;
+    }
+    footer form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer form input {
+        padding: 12px 26px 12px 26px;
+    }
+}
+
+@media (max-width: 430px) {
+    /* ========= index.html ========= */
+    footer .container ul:nth-child(2) {
+        gap: 9px;
+    }
+    .copyright {
+        padding: 15px 34px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* ========= index.html ========= */
+    .double_input {
+        flex-direction: column;
+        gap: 0;
+    }
+    .appointment .ap_serv {
+        margin-top: 0px;
+    }
+    .frequently_accordion_main {
+        padding: 30px 7px;
+    }
+    .accordion-button {
+        padding: 10px 1.25rem 0px 1.25rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .beauty_spa img[alt="beauty_spa2"] {
+        margin: -33px 0 0px 35px;
+    }
+    #success-message {
+        width: 85%;
+        padding: 62px 17px;
+    }
+    #footer-message {
+        width: 85%;
+        padding: 62px 17px;
+    }
+}
+
+@media (max-width: 360px) {
+    /* global setting */
+    .container {
+        max-width: 95%;
+    }
+    button {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 12px 22px 12px 22px;
+    }
+    /* ========= index.html ========= */
+    .navbar-nav a {
+        font-size: 14px;
+    }
+    .nav {
+        padding-left: 8px;
+    }
+    footer ul li a {
+        font-size: 14px;
+    }
+    footer .gap-4 li {
+        font-size: 14px;
+    }
+    .contact_address ul li {
+        font-size: 14px;
+    }
+    .hero {
+        background-size: cover;
+        background-position-x: 53%;
+    }
+    .feature .container {
+        padding: 30px 20px;
+    }
+    /* ========= Hero section ========= */
+    .saloon_para {
+        margin-top: 30px;
+    }
+    /* ========= index.html ========= */
+    .testimonial {
+        margin-top: -90px;
+    }
+    figure.snip1157 img {
+        height: 80px;
+        width: 80px;
+    }
+    .works .overly_para {
+        padding: 30px 10px;
+    }
+    .pricing_card {
+        gap: 15px;
+    }
+    .pricing1 {
+        gap: 15px;
+    }
+    .pricing_para {
+        margin-top: 30px !important;
+    }
+    .team_testimonial {
+        margin-top: -15px !important;
+    }
+    .our_expert_para {
+        margin-top: 30px;
+    }
+    .our_expert_img {
+        margin: 2px 0 20px 0 !important;
+    }
+    .expert img {
+        height: 225px;
+    }
+    .video {
+        padding: 5px 0 30px 0;
+    }
+    .video_img {
+        margin-top: 5px;
+        gap: 0;
+    }
+    /* ========= blog.html ========= */
+    .blog_page_img {
+        margin-top: -12px;
+    }
+    .blog_img {
+        margin: 0px 0 2px 0;
+    }
+    /* ========= team.html ========= */
+    .our_expert_img_team {
+        margin-top: -7px !important;
+    }
+}
+
+@media (max-width: 355px) {
+    /* ========= index.html ========= */
+    .overlay_text i {
+        font-size: 16px;
+    }
+}
