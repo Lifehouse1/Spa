@@ -2549,6 +2549,33 @@ img[alt="contect_leaf"] {
             display: none;
         }
     }
+/* Mobile Footer Contact Fix */
+@media (max-width: 767px) {
+  #contact .list-inline.d-flex {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px !important;
+  }
+
+  #contact .list-inline.d-flex li {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #contact .list-inline.d-flex i {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+}
+
+/* Ensure proper spacing on larger screens */
+@media (min-width: 768px) {
+  #contact .list-inline.d-flex {
+    justify-content: center;
+  }
+}
 
 
 /* ======== End of 07. 404/Comming Soon Page Style ======== */
