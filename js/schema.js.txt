@@ -1,0 +1,45 @@
+// schema.js
+document.addEventListener('DOMContentLoaded', function() {
+    const schemaScript = document.createElement('script');
+    schemaScript.type = 'application/ld+json';
+    schemaScript.text = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Spa",
+        "name": "The Life House Spa",
+        "image": "https://www.thelifehousespa.com.np/images/spa.jpg",
+        "description": "Premium Ayurvedic spa in Butwal offering luxury treatments and wellness packages",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "MFM6+PXM, Butwal 32907",
+            "addressLocality": "Butwal",
+            "addressRegion": "Lumbini Province",
+            "postalCode": "32907",
+            "addressCountry": "NP"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "27.68432430746237",  // Updated latitude
+            "longitude": "83.46244234662046"  // Updated longitude
+        },
+        "telephone": "+9779742907839",
+        "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "09:00",
+            "closes": "21:00"
+        }],
+        "sameAs": [
+            "https://g.co/kgs/82PyaJx"
+        ]
+    });
+
+    document.head.appendChild(schemaScript);
+});
