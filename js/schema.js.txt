@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "27.68432430746237",  // Updated latitude
-            "longitude": "83.46244234662046"  // Updated longitude
+            "latitude": "27.68432430746237",  
+            "longitude": "83.46244234662046"  
         },
         "telephone": "+9779742907839",
         "openingHoursSpecification": [{
